@@ -4,7 +4,7 @@
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/serclay/setup-docker-laravel.git
+git clone https://github.com/serclay/setup-docker-laravel-main.git
 ```
 
 Clone os Arquivos do Laravel
