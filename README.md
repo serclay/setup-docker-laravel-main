@@ -9,18 +9,20 @@ git clone https://github.com/serclay/setup-docker-laravel-main.git
 
 Clone os Arquivos do Laravel
 ```sh
-git clone https://github.com/laravel/laravel.git app-laravel
+git clone https://github.com/laravel/laravel.git curso-laravel
 ```
 
 
 Copie os arquivos docker-compose.yml, Dockerfile e o diretório docker/ para o seu projeto
 ```sh
-cp -rf setup-docker-laravel/* app-laravel/
+cp -rf setup-docker-laravel-main/* curso-laravel/
 ```
 ```sh
-cd app-laravel/
+cd curso-laravel/
 ```
 
+rm -rf .git
+rm -rf .github
 
 Crie o Arquivo .env
 ```sh
