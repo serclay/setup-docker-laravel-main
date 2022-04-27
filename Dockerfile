@@ -1,6 +1,6 @@
-FROM php:7.4-fpm
+FROM php:8.1.1-fpm
 
-# Arguments defined in docker-compose.yml
+# Arguments
 ARG user=meta
 ARG uid=1000
 
